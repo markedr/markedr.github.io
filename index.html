@@ -5,6 +5,7 @@
   <!--Bootstrap CSS--> 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
   <style>
     /* Custom CSS */
     .navbar-custom {
@@ -79,8 +80,10 @@
             </ul>
           </div>
         </nav>
+      <div class="container1">
+        <h1> <span class = "auto-type"> </span></h1>
+      </div>
     </div>
-
   <footer class="bg-light py-4">
       <div class="container">
         <div class="row">
@@ -110,7 +113,16 @@
       </div>
     </footer>
   
-    
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed(".auto-type", {
+      strings: ["Welcome to Our Social Media Marketing Agency", "Let Us Tell You More About Us"],
+      typeSpeed: 80,
+      backSpeed: 0,
+      loop : true,
+    })
+  </script>
   <!-- Bootstrap JS and jQuery (required for dropdown functionality) -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
