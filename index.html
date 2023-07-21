@@ -10,10 +10,6 @@
     <style>
         /* Custom CSS */
         
-        html {
-            scroll-behavior: smooth;
-        }
-        
         .navbar-custom {
             background-color: #f8f9fa;
             /* Set the default light color */
@@ -181,15 +177,14 @@
             window.scrollTo({
                 top: 270,
                 left: 270,
+
             });
             let scrolldelay = setTimeout(autoScroll, 11000)
         }
-        autoScroll()
+        autoScroll(11000)
     </script>
     <!-- Bootstrap JS and jQuery (required for dropdown functionality) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/your_fontawesome_kit.js" crossorigin="anonymous"></script>
 </body>
-
-</html>
